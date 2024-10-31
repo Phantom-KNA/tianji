@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port 10000",
-    "build": "vite build",
+    "build": "vite build --emptyOutDir",
     "ui:add": "shadcn add",
     "check:type": "tsc --noEmit --skipLibCheck --module esnext",
     "translation:extract": "i18next-toolkit extract",
